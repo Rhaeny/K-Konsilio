@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7ab5a070-4e93-4ad7-b4a4-4e05993c79a8" name="K-Konsilio" url="http://ftp.k-konsilio.cz">
+        <fileTransfer rootFolder="/public_html" host="ftp.k-konsilio.cz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
