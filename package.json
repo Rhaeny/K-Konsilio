@@ -33,7 +33,7 @@
     "magnific-popup": "^1.1.0",
     "npm": "^6.13.4",
     "scrollreveal": "4.0.5",
-    "uglify-js": "^3.6.0",
+    "uglify-js": "^3.9.1",
     "snyk": "^1.320.2"
   },
   "devDependencies": {
