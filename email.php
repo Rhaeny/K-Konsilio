@@ -36,7 +36,7 @@ $kategorie = $_POST['need'];
 $obsah = $_POST['message'];
  
 
-$to = "dusan.choleva@seznam.cz";
+$to = "k-konsilio@seznam.cz";
 $subject = "$jmeno $prijmeni - $kategorie";
 $txt="$obsah";
 

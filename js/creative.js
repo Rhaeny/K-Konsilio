@@ -23,7 +23,7 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 0
+    offset: 75
   });
 
   // Collapse Navbar
