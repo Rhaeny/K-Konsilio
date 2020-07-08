@@ -13,10 +13,9 @@
   color: $gray-900;
   @media (max-width: 576px) {
     .btn {
-      font-size: 9px;
       padding-left: 2px;
       padding-right: 2px;
-      width: 110px;
+      width: 150px;
     }
   }
 }

@@ -23,7 +23,6 @@ window.onload = function() {
         document.getElementById("category2").style.boxShadow = "";
         document.getElementById("category3").style.boxShadow = "";
         document.getElementById("category4").style.boxShadow = "";
-        document.getElementById("category5").style.boxShadow = "";
     }
 
     function clearAllImages() {
@@ -80,19 +79,6 @@ window.onload = function() {
         let items = document.getElementsByClassName("portfolio-image");
         for (let i=0; i < items.length; i++) {
             if (!items[i].classList.contains("portfolio-category4")) {
-                items[i].classList.add("filtered");
-            }
-        }
-    };
-
-    document.getElementById("category5").onclick = function () {
-        clearAllButtons();
-        document.getElementById("category5").style.boxShadow = "0 0 0 0.2rem rgba(255, 255, 255,.5)";
-        clearAllImages();
-
-        let items = document.getElementsByClassName("portfolio-image");
-        for (let i=0; i < items.length; i++) {
-            if (!items[i].classList.contains("portfolio-category5")) {
                 items[i].classList.add("filtered");
             }
         }

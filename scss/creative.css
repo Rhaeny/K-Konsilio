@@ -248,7 +248,7 @@ header.masthead .description {
 }
 
 img {
-  height: 140px;
+  height: 60px;
 }
 
 #portfolio .section-heading {
@@ -264,10 +264,9 @@ img {
 }
 @media (max-width: 576px) {
   .category-buttons .btn {
-    font-size: 9px;
     padding-left: 2px;
     padding-right: 2px;
-    width: 110px;
+    width: 150px;
   }
 }
 
@@ -365,6 +364,10 @@ img {
   .white-popup p {
     padding: 15px;
   }
+}
+
+#references .section-heading {
+  padding-top: 8rem;
 }
 
 #contact-form {
