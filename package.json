@@ -34,7 +34,7 @@
     "npm": "^6.13.4",
     "scrollreveal": "4.0.5",
     "uglify-js": "^3.6.0",
-    "snyk": "^1.320.2"
+    "snyk": "^1.465.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
